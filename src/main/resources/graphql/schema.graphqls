@@ -1,0 +1,13 @@
+type Query{
+   getAllStudents: [Student]
+}
+
+
+type Student{
+
+  id: ID!
+  name: String
+  email: String
+  phoneNumber: String
+}
+
